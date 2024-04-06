@@ -58,8 +58,3 @@ or you can choose your own parameters like this:
 python main.py --seed 1001 --batch_size 64 --warmup_start_lr 1e-7 --max_lr 0.001 --warmup_epochs 2 --num_classes 5 --epochs 20 --patience 10
 ```
 
-If you prefer not to spend a significant amount of time on training, you can download the model from the link provided and run the following command to test its accuracy on the test set:
-To obtain the model files, please download them from the following link and place them in the checkpoint directories:
-- [Download model_Cassava.pth](https://liveuclac-my.sharepoint.com/:u:/g/personal/uceeqra_ucl_ac_uk/EUK-wT4TdBBBu7V2tzwXIqMBdJYZYqn_vV0n-szI4_FUsw?e=tBx0o6)
-```sh
-python main.py --test
